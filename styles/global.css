@@ -38,5 +38,26 @@ main {
 }
 main nav,
 section {
-    border: 5px solid black;
+    border: 2px solid black;
+}
+
+.highlighted-shows {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.special-features {
+    display: grid;
+    grid-template-rows: 20%, 10% 70%;
+}
+
+.show-thumbnails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.highlighted-shows h3,
+.special-features h2,
+h3,
+div {
+    border: 2px solid black;
 }
