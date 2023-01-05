@@ -32,4 +32,11 @@ header .logo {
 
 main {
     padding: 20px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-rows: 10% 50% 10% 30%;
+}
+main nav,
+section {
+    border: 5px solid black;
 }
