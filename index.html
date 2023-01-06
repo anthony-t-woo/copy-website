@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img class="logo" src="assets/html_css_js.png" alt="logo" />
+            <h1>Web App</h1>
+        </header>
 
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+        <main>
+            <nav class="nav-bar">
+                <img class="CR-logo" src="./assets/crlogo.png" />
+                <h2>Browse</h2>
+                <h2>Manga</h2>
+                <h2>Games</h2>
+                <h2>Store</h2>
+                <h2>News</h2>
+                <h2>nothing here</h2>
+                <h2>Premium</h2>
+                <input id="search-show" />
+                <h2>bookmarks</h2>
+                <h2>profile</h2>
+            </nav>
+            <section class="billboard"><img src="./assets/large-image.png" /></section>
+            <section class="highlighted-shows">
+                <h3>nothing here</h3>
+                <h3>show 1</h3>
+                <h3>show 2</h3>
+                <h3>show 3</h3>
+                <h3>show 4</h3>
+                <h3>show 5</h3>
+                <h3>nothing here</h3>
+            </section>
+            <section class="special-features">
+                <h2 class="catchphrase">Catchphrase</h2>
+                <h3 class="'response">Response to catchphrase</h3>
+                <div class="show-thumbnails">
+                    <h3>nothing here</h3>
+                    <h3>image1</h3>
+                    <h3>image2</h3>
+                    <h3>image3</h3>
+                    <h3>image4</h3>
+                    <h3>image5</h3>
+                    <h3>nothing here</h3>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>

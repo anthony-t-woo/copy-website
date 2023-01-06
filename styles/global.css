@@ -32,4 +32,55 @@ header .logo {
 
 main {
     padding: 20px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-rows: 10% 50% 10% 30%;
+}
+nav,
+section {
+    border: 2px solid black;
+}
+
+.highlighted-shows {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.special-features {
+    display: grid;
+    grid-template-rows: 20%, 10% 70%;
+}
+
+.show-thumbnails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.highlighted-shows h3,
+.special-features h2,
+h3,
+div {
+    border: 1px solid black;
+}
+
+img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.billboard {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: 10% 7% 7% 7% 7% 7% 27% 7% 7% 7% 7%;
+}
+.navbar img,
+h2 {
+    border: 1px solid black;
+}
+
+input {
+    height: 1.3em;
 }
