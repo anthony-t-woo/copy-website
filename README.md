@@ -1,4 +1,4 @@
-![wireframe/layout drawing for website](./assets/layout.png);
+![wireframe layout drawing for website](./assets/layout.png);
 
 # Rows and Columns
 
